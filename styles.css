@@ -5,16 +5,29 @@ body{
 
 h1,h2{text-align: center;
 text-decoration: underline;}
-
+a{
+    color: rgb(51, 118, 155);
+}
+#first-list{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid ;
+}
 #first-list li{
-    list-style-type:square;
-    margin:10px
+    background-color: rgb(203, 237, 228);
+    margin:10px;
+    border-radius: 2px;
+
+    /* border: 2px dotted red; */
+    
 }
 
 img{height: 300px;
 width: 100%;
+border-radius: 2em;
 }
 
 ol li{margin: 10px;}
-ol{background-color: rgb(144, 195, 205)}
-ul{background-color: rgb(144, 195, 205)}
+
+ul,ol{background-color: rgb(144, 195, 205); border-radius: 10px;
+padding: 20px}
